@@ -22,6 +22,20 @@
 
         <activity
             android:name=".ui.ImageCard"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackCompose">
+
+        </activity>
+        <activity
+            android:name=".ui.screens.Calc"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackCompose">
+
+        </activity>
+        <activity
+            android:name=".ui.screens.LazyColumnScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetpackCompose">
